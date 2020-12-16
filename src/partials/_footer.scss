@@ -1,6 +1,9 @@
 footer {
     height: $footer_h;
     font-size: $f_size;
+    color: lighten(desaturate(adjust-hue($col_primary, 8), 0.99), 14.12);
+    background-color: $bg_primary;
+    border-top: 1px solid lighten(desaturate(adjust-hue($col_primary, 8), 0.99), 14.12);
 
     .container {
         @include flex(row-reverse, space-between, center);

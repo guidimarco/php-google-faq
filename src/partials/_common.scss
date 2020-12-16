@@ -27,11 +27,14 @@ a {
     color: inherit;
     text-decoration: none;
     &.primary {
-        color: red;
+        color: $primary;
     }
 }
 
 button {
     border-width: 0;
     cursor: pointer;
+    &:hover, &.primary:hover {
+        background-color: $bg_primary;
+    }
 }

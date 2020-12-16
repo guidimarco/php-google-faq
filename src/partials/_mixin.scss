@@ -11,3 +11,8 @@
     position: absolute;
     top: $top; right: $right; left: $left; bottom: $btm;
 }
+
+@mixin posFxd($top, $right, $left, $btm) {
+    position: fixed;
+    top: $top; right: $right; left: $left; bottom: $btm;
+}

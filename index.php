@@ -94,7 +94,7 @@
                         </button>
 
                         <!-- user-btn -->
-                        <button type="button" name="user-button">
+                        <button type="button" name="user-button" class="primary">
                             U
                         </button>
                     </div>
