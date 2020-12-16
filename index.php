@@ -45,15 +45,50 @@
     </head>
     <body>
         <header>
-            <!-- top: logo and user-btn -->
-            <div class="header-top">
+            <div class="header-container">
+                <!-- top: logo and user-btn -->
+                <div class="header-top">
+                    <!-- sx: logo -->
+                    <div class="logo">
+                        <img src="https://download.logo.wine/logo/Google/Google-Logo.wine.png" alt="brand logo google">
+                        <span>Privacy e termini</span>
+                    </div>
 
+                    <!-- dx: user-menu -->
+                    <div class="user-menu">
+                        <!-- menu-btn -->
+                        <button type="button" name="menu-button">
+                            M
+                        </button>
+
+                        <!-- user-btn -->
+                        <button type="button" name="user-button">
+                            U
+                        </button>
+                    </div>
+                </div>
+
+                <!-- btm: nav-bar -->
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#">Introduzione</a>
+                        </li>
+                        <li>
+                            <a href="#">Norme sulla privacy</a>
+                        </li>
+                        <li>
+                            <a href="#">Termini di servizio</a>
+                        </li>
+                        <li>
+                            <a href="#">Tecnologie</a>
+                        </li>
+                        <li class="active">
+                            <a href="#">Domande frequenti</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-
-            <!-- btm: nav-bar -->
-            <nav>
-
-            </nav>
         </header>
         <main>
             <div class="container">
@@ -75,6 +110,7 @@
 
             </div>
         </main>
+
         <footer>
             <div class="container">
                 <!-- top / right: lang -->

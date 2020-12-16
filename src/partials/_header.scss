@@ -2,18 +2,47 @@ header {
     height: $header_h;
     font-size: $f_size;
 
-    // top: logo and user-btn
-    .header-top {
-        height: $header_top_h;
-        background-color: red;
-        padding: $spacing;
-    }
+    .header-container {
+        width: 95%;
+        max-width: 1350px;
+        margin: 0 auto;
 
-    // btm: nav-bar
-    nav {
-        height: calc(#{$header_h} - #{$header_top_h});
-        background-color: green;
-        padding-left: $spacing * 3;
-        padding-right: $spacing * 3;
-    }
+        // top: logo and user-btn
+        .header-top {
+            @include flex(row, space-between, center);
+            height: $header_top_h;
+
+            // sx: brand logo
+            .logo {
+                img {
+                    max-height: $header_top_h;
+                }
+            }
+
+            // dx: user-menu
+            .user-menu {
+                button {
+                    height: $spacing * 4;
+                    width: $spacing * 4;
+                    background-color: purple;
+                }
+            }
+        }// end header-top
+
+        // btm: nav-bar
+        nav {
+            height: calc(#{$header_h} - #{$header_top_h});
+            ul {
+                @include flex(row, flex-start, center);
+                height: 100%;
+
+                li {
+
+                    &.active {
+                        color: red;
+                    }
+                }
+            }
+        } // end nav
+    }// end header-container
 } // fine header

@@ -32,17 +32,44 @@ header {
   font-size: 14px;
 }
 
-header .header-top {
-  height: 65px;
-  background-color: red;
-  padding: 8px;
+header .header-container {
+  width: 95%;
+  max-width: 1350px;
+  margin: 0 auto;
 }
 
-header nav {
+header .header-container .header-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 65px;
+}
+
+header .header-container .header-top .logo img {
+  max-height: 65px;
+}
+
+header .header-container .header-top .user-menu button {
+  height: 32px;
+  width: 32px;
+  background-color: purple;
+}
+
+header .header-container nav {
   height: calc(100px - 65px);
-  background-color: green;
-  padding-left: 24px;
-  padding-right: 24px;
+}
+
+header .header-container nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+}
+
+header .header-container nav ul li.active {
+  color: red;
 }
 
 footer {
