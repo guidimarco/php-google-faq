@@ -40,6 +40,9 @@
         <meta charset="utf-8">
         <title>php-google-faq</title>
 
+        <!-- font -->
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+
         <!-- style.css -->
         <link rel="stylesheet" href="dist/app.css">
     </head>

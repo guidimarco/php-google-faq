@@ -14,17 +14,26 @@ header {
 
             // sx: brand logo
             .logo {
+                @include flex(row, center, center);
+                height: 100%;
+
                 img {
-                    max-height: $header_top_h;
+                    max-height: 100%;
+                }
+
+                span {
+                    font-size: $f_size * 1.6;
                 }
             }
 
             // dx: user-menu
             .user-menu {
                 button {
-                    height: $spacing * 4;
-                    width: $spacing * 4;
+                    height: $spacing * 5; width: $spacing * 5;
+                    border-radius: 50%;
                     background-color: purple;
+                    margin-left: 5px;
+                    padding: $spacing;
                 }
             }
         }// end header-top
