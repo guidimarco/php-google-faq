@@ -1,4 +1,19 @@
 footer {
     height: $footer_h;
     font-size: $f_size;
+
+    .container {
+        @include flex(row-reverse, space-between, center);
+        height: 100%;
+
+        // top - right: lang (select)
+        .lang {
+            background-color: green;
+        }
+
+        // btm - left: brand-menu
+        .brand-menu {
+            background-color: orange;
+        }
+    } // end container
 }

@@ -50,3 +50,19 @@ footer {
   font-size: 14px;
 }
 
+footer .container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+footer .container .lang {
+  background-color: green;
+}
+
+footer .container .brand-menu {
+  background-color: orange;
+}
+

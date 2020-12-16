@@ -52,7 +52,7 @@
 
             <!-- btm: nav-bar -->
             <nav>
-                
+
             </nav>
         </header>
         <main>
@@ -77,7 +77,32 @@
         </main>
         <footer>
             <div class="container">
+                <!-- top / right: lang -->
+                <div class="lang">
+                    <select name="languages">
+                        <option value="it">it</option>
+                        <option value="en">en</option>
+                        <option value="fr">fr</option>
+                    </select>
+                </div>
 
+                <!-- btm / left: brand-menu -->
+                <div class="brand-menu">
+                    <ul>
+                        <li>
+                            <a href="#">Google</a>
+                        </li>
+                        <li>
+                            <a href="#">Tutto su Google</a>
+                        </li>
+                        <li>
+                            <a href="#">Privacy</a>
+                        </li>
+                        <li>
+                            <a href="#">Termini</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </footer>
     </body>
