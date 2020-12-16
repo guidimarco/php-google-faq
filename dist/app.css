@@ -28,6 +28,10 @@ a {
   text-decoration: none;
 }
 
+a.primary {
+  color: red;
+}
+
 button {
   border-width: 0;
   cursor: pointer;

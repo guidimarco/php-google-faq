@@ -26,6 +26,9 @@ ul {
 a {
     color: inherit;
     text-decoration: none;
+    &.primary {
+        color: red;
+    }
 }
 
 button {
