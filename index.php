@@ -39,6 +39,9 @@
     <head>
         <meta charset="utf-8">
         <title>php-google-faq</title>
+
+        <!-- style.css -->
+        <link rel="stylesheet" href="dist/app.css">
     </head>
     <body>
         <header></header>
