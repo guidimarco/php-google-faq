@@ -44,7 +44,17 @@
         <link rel="stylesheet" href="dist/app.css">
     </head>
     <body>
-        <header></header>
+        <header>
+            <!-- top: logo and user-btn -->
+            <div class="header-top">
+
+            </div>
+
+            <!-- btm: nav-bar -->
+            <nav>
+                
+            </nav>
+        </header>
         <main>
             <div class="container">
 
@@ -65,6 +75,10 @@
 
             </div>
         </main>
-        <footer></footer>
+        <footer>
+            <div class="container">
+
+            </div>
+        </footer>
     </body>
 </html>

@@ -1,4 +1,19 @@
 header {
     height: $header_h;
     font-size: $f_size;
+
+    // top: logo and user-btn
+    .header-top {
+        height: $header_top_h;
+        background-color: red;
+        padding: $spacing;
+    }
+
+    // btm: nav-bar
+    nav {
+        height: calc(#{$header_h} - #{$header_top_h});
+        background-color: green;
+        padding-left: $spacing * 3;
+        padding-right: $spacing * 3;
+    }
 } // fine header
