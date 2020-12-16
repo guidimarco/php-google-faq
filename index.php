@@ -32,7 +32,7 @@
             ], // end answer
         ], // end question-array
     ]; // faq-array --> question-array --> [ "question" => "string", "answer" => ["par1", "par2", ...] ]
-    var_dump($faq);
+    // var_dump($faq);
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -41,6 +41,27 @@
         <title>php-google-faq</title>
     </head>
     <body>
+        <header></header>
+        <main>
+            <div class="container">
 
+                <!-- print all-faq -->
+                <?php foreach ($faq as $current_quest) { ?>
+                    <div class="single-faq">
+                        <h2><?php echo $current_quest["question"]; ?></h2>
+
+                        <!-- print all-answer (par) -->
+                        <?php foreach ($current_quest["answer"] as $answer_par) { ?>
+                            <p>
+                                <?php echo $answer_par; ?>
+                            </p><?php
+                        } ?><!-- end: print all-answer (par) -->
+
+                    </div><?php
+                } ?><!-- end: print all-faq -->
+
+            </div>
+        </main>
+        <footer></footer>
     </body>
 </html>
