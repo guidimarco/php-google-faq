@@ -46,7 +46,8 @@ header {
                 height: 100%;
 
                 li {
-
+                    margin-right: $spacing * 5;
+                    font-weight: bold;
                     &.active {
                         color: red;
                     }

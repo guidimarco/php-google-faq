@@ -1,3 +1,16 @@
 main {
+    .container {
+        padding: ($spacing * 4) 0;
 
+        h2 {
+            font-size: $f_size * 2;
+            padding-top: $spacing * 8;
+        }
+
+        p {
+            padding-top: $spacing * 3;
+            margin: $spacing 0;
+            line-height: 1.6;
+        }
+    }
 }

@@ -8,12 +8,18 @@ footer {
 
         // top - right: lang (select)
         .lang {
-            background-color: green;
+            // background-color: green;
         }
 
         // btm - left: brand-menu
         .brand-menu {
-            background-color: orange;
+
+            ul {
+                li {
+                    font-size: $f_size * 0.8;
+                    margin-right: $spacing;
+                }
+            }
         }
     } // end container
 }
